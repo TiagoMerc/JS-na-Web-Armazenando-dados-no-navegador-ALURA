@@ -12,6 +12,9 @@
 
 **INSTRUTOR:** Felipe Nascimento
 
+**GitHub Pages:** 
+[Acessem]()
+
 ### 01. Trabalhando com datas
 
 Nesta aula, aprendemos a:
@@ -21,3 +24,6 @@ Nesta aula, aprendemos a:
 - Manipular datas
 
 - Desestruturar objetos em JavaScript
+
+### 02. LocalStorage
+
