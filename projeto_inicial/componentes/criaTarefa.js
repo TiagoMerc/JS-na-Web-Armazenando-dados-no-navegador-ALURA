@@ -1,11 +1,11 @@
-import BotaoConclui from './concluiTarefas.js'
+import BotaoConclui from './concluiTarefa.js'
 import BotaoDeleta from './deletaTarefa.js'
  
 
   //  const criarTarefa = (evento) => {
   export const handleNovoItem = (evento) => {
     evento.preventDefault()
-
+    const tarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
     const lista = document.querySelector('[data-list]')
     const input = document.querySelector('[data-form-input]')
     const valor = input.value
@@ -18,19 +18,21 @@ import BotaoDeleta from './deletaTarefa.js'
         valor,
         dataFormatada
     }
+ 
+    const tarefasAtualizadas = [...tarefas, dados]
 
     const criaTarefa = Tarefa(dados)
 
-    tarefas.push(dados);
     lista.appendChild(criaTarefa)
 
    // sessionStorage.setItem("tarefas sessionStorage", JSON.stringify(dados));
-    localStorage.setItem("tarefas sessionStorage", JSON.stringify(tarefas));
+    localStorage.setItem('tarefas', JSON.stringify(tarefasAtualizadas));
  
     input.value = " "
   }
 
-  const Tarefa = ({valor, dataFormatada}) => { 
+  export const Tarefa = ({valor, dataFormatada}) => { 
+    
     const tarefa = document.createElement('li')
     tarefa.classList.add('task')
     const conteudo = `<p class="content">${dataFormatada} * ${valor}</p>`

@@ -27,3 +27,15 @@ Nesta aula, aprendemos a:
 
 ### 02. LocalStorage
 
+Nesta aula, aprendemos a:
+
+- Salvar dados no navegador utilizando SessionStorage
+
+- Armazenar dados sem encerrar a sessão com e LocalStorage
+
+- Transformar objetos em string utilizando JSON.stringify()
+
+![LocalStorage](./projeto_inicial/assets/img/LocalStorage.png)
+
+### 03. Renderizando a lista 
+
