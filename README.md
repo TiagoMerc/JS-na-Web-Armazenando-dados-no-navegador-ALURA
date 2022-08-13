@@ -39,3 +39,12 @@ Nesta aula, aprendemos a:
 
 ### 03. Renderizando a lista 
 
+Nesta aula, aprendemos a:
+
+- Iterar sobre os itens do LocalStorage
+
+- Utilizar o curto circuito para verificação lógica
+
+- Converter os itens que antes eram strings em objetos com JSON.parse
+
+### 04. Ordenando as tarefas 
