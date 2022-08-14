@@ -56,3 +56,13 @@ Nesta aula, aprendemos a:
 - Ordenar elementos do LocalStorage
 
 ![Ordenando as Tarefas](./projeto_inicial/assets/img/OrdenandoTarefas.png)
+
+### 05. Finalizando o projeto
+
+Nesta aula, aprendemos a:
+
+- Alterar um estado utilizando operador de negação
+
+- Remover dados do LocalStorage utilizando o método splice
+
+![Aparecendo as horas](./projeto_inicial/assets/img/Aparecendo%20as%20horas.png)
