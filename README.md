@@ -48,3 +48,11 @@ Nesta aula, aprendemos a:
 - Converter os itens que antes eram strings em objetos com JSON.parse
 
 ### 04. Ordenando as tarefas 
+
+Nesta aula, aprendemos a:
+
+- Filtrar elementos de um array
+
+- Ordenar elementos do LocalStorage
+
+![Ordenando as Tarefas](./projeto_inicial/assets/img/OrdenandoTarefas.png)
