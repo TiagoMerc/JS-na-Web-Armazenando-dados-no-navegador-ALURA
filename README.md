@@ -65,4 +65,4 @@ Nesta aula, aprendemos a:
 
 - Remover dados do LocalStorage utilizando o método splice
 
-![Aparecendo as horas](./projeto_inicial/assets/img/Aparecendo%20as%20horas.png)
+![Aparecendo as horas](./projeto_inicial/assets/img/ExibindoHoras.png)
